@@ -1,0 +1,12 @@
+x canary test
+x test for 0 returns 1
+x test for 1 returns 1
+x test for 2 returns 2
+x test for 3 returns 6
+x test factorial for 10
+x test factorial for 50
+x test factorial for -1
+
+x test imperativefactorialgenerator
+x test recursivefactorialgenerator
+x test functionalfactorialgenerator

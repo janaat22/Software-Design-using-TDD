@@ -1,0 +1,79 @@
+Assign3: Due 11:59PM April 3
+
+The Factorial of a number is the product of all numbers in the range 1 to the number.
+
+Write three implementations of a function to compute the Factorial of a number.
+
+Please start with one implementation at a time rather than rushing through all
+of them at the same time.
+
+The implementations are described below:
+
+1. An imperative iteration. 
+  Given a number, loop through using traditional for.
+
+2. A simple recursion.
+  
+3. A functional iteration. 
+	  Use functional internal iterators to perform the operation.
+
+Please bring forward the practices, techniques, and tools you have learned so far. This includes: 
+Good code quality
+Lightweight design
+Minimum code
+Automated testing                                                         
+Code coverage
+Continuous integration
+
+Once you complete coding, please answer the following:
+
+1. What design principles did you use in this assignment? Discuss.
+
+DRY - Don't Repeat Yourself
+We had to write three different implementations of a function to compute the factorial of a number. As per the DRY
+design principle, we used the same test cases, that we wrote for the first implementation, for the rest of the
+implementations too.  We wrote an Abstract Class of the common test cases and implemented them in Test classes
+of the three implementations of functions. It made our code maintainable.
+
+SRP - Single-Responsibility Principle
+We followed the Single Responsibility Principle at the function level, class level, and file level. We had separate
+functions for every test, separate test classes for every implementation and separate files for every class,
+implementation, and service. This made our code mode cohesive and understandable.
+
+YAGNI - You Aren't Going to Need It (yet)
+We observed the YAGNI principle and didn't have an Abstract Factorial Tests class in the beginning. We made the class
+abstract only when we encountered another implementation that required the same test cases. Also, as per our strategic
+design, we didn't have a base Factorial class with three sub-classes for the three implementations. Because it was not
+needed until the end. This design principle helped us to keep the code simple and of less complexity.
+
+OCP - Open Closed Principle
+As per the Open-Closed Principle, we kept our classes and functions closed for changes and open for extension. We only
+extended the Abstract FactorialTests in the Test classes of our implementations but did not make any modification to it.
+This made our code extensible but stable for the changes.
+
+Liskov's Substitution Principle
+We did not violate the advertised behavior of the abstract test class while implementing the derived test class. For
+example in our case we only used the base class test cases in our derived class. Thus we were able to properly implement
+the inheritance in our code.
+
+
+2. Any surprises or things that you did not expect?
+
+We did not expect that we would have to repeat the test cases for the implementations. We spent a good amount of time
+researching different possible ways in which we could have the DRY design principle in our code.
+
+It was surprising to see how we completed the third type of implementation in a few minutes! Because we had followed
+the design principles! We had the test cases and the validation service method ready. All we had to do was just to
+write code for the third Test class to pass!
+
+Total [100]: 100
+All tests pass [10]:
+Test quality [10]:
+Code Coverage [10]:        
+Imperative solution [10]:
+Recursive solution [10]:
+No duplication [10]:
+Functional solution [10]:
+Design quality [10]:
+Code quality [10]:
+Response to questions [10]:
