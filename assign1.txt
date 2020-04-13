@@ -1,0 +1,54 @@
+Assign1: Due 11:59PM February 21
+
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Use as many reviews as you possibly can.
+
+Using Test First Development (no code without test first) implement the problem you designed in hw2. Feel free to evolve that design and use your judgment to make changes based on the improved understanding and learning.
+
+Take small steps, ask for frequent reviews.
+
+First start with a tests list and a canary test. Implement at most two more tests and minimum code to make those tests to pass. This is a great first step to complete and ask for a review.
+
+After completing the assignment (and only after) answer the following questions:
+
+1. What did you learn mainly in this assignment?
+
+TDD is advantageous: 
+We learned how to think from the perspective of starting to implement features from test cases. 
+
+We were able to learn and follow the practices of the TDD approach. We learned to jot down tests, pick a valuable and simple test, write a failing test and then to write minimal code to make the test pass and then to refactor it. 
+
+Finally, we realized how easier it is to test the new features, debug an error, add new features without violating the design and to integrate the GUI, with the TDD approach. Because it makes the code modular and simple.
+
+Pair programming:
+We learned how effectively the pair programming works. As it helps us to share multiple solutions for a problem, we get to discuss and pick the one which is simple and relevant. 
+
+2. How is your current design different, if at all, from the strategic design created in hw2?
+
+The strategic design had 5 classes. 3 of the classes derived from a parent class Cell to represent the types of cells namely, Empty, Adjacent and Mine cell. 
+
+The current design uses only one class for the Minesweeper game and an enum class for the cell statuses. The cell statuses and mined cells were stored as 2D arrays in the Minesweeper class.
+
+But we have some of the decisions like setting the mines after the first left click on a cell, from our strategic design.
+
+3. Were there any surprises or things you did not expect along the way? Any 
+particular problem faced, things you had to tackle that you did not expect 
+beforehand?
+
+The common things that we had been doing in software development were to be forgotten. We had to orient ourselves to the TDD approach which wasn't that easy as expected!  
+
+We never expected that jotting down test cases would require thorough planning. 
+
+Throughout the assignment, we had to be cautious about the code not becoming complex. 
+
+Altogether it was a total learning experience where we did the common things we do in software development in an entirely different way!
+
+Total [100]: 95
+Program runs as expected [20]: -5
+When I click on some cells, the game ends with a loss.
+
+All test pass [20]:
+Code coverage [10]:
+Test quality [10]:
+Design quality [20]:
+Code quality [10]:
+Questions in assign1.txt [10]:
