@@ -1,0 +1,45 @@
+Assign2: Due 11:59PM March 6
+
+Please take small steps. Start with a canary test and one or two more tests.
+List your tests in a file named tests.txt. Check them off with a x as you 
+implement them. Remember to ask for a review each day. The earlier you start,
+the earlier you finish, and less the risk. If you start late, you carry a 
+bigger risk. I sincerely hope you will start early and come out winning in 
+this course.
+
+Using test first development, write the program described below.
+
+Write a program that reads a file which has multiple line of text and prints 
+it to the console with words with correct spelling as is and words with 
+incorrect spelling within [].
+
+For example, given the file with
+The cow jumped over the moln and the little dog laghed to see such sport and 
+the dih ran away with the spon
+
+The output will be:
+The cow jumped over the [moln] and the little dog [laghed] to see such sport 
+and the [dih] ran away with the [spon]
+
+You can assume that the input file will not contain any punctuations (no 
+comma, semi-colon, period, etc.). The program can find if a word is of correct 
+spelling or not by querying http://agile.cs.uh.edu/spell?check=WORD where WORD 
+can be replaced with the word to check spelling for.
+ 
+Design the program in a way that 
+-we may use a different service to check the spelling without having to change 
+any existing code, though adding new small modules of code is OK.
+
+-we may read the lines of text from another source instead of a file. Again 
+program should require no change, though adding new small modules of code is 
+OK.
+
+Total [100]: 100
+Program runs and produces desired output [20]:
+Program fails gracefully on network error[5]:
+All tests pass [10]:
+Test quality [20]:
+All tests except two do not rely on network [5]:
+Code coverage [10]:
+Design quality [20]:
+Code quality [10]:

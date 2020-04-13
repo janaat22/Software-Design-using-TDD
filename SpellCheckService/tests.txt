@@ -1,0 +1,12 @@
+x canary test
+x check spelling for an empty string returns the given input
+x check spelling for "one" returns "one"
+x check spelling for "two words" returns "two words"
+x check spelling for "oen" returns "[oen]"
+x check spelling for "oen two" returns "[oen] two"
+x check spelling for "one wto" returns "one [wto]"
+x check spelling for "oen wto" returns "[oen] [wto]"
+x check spelling for "one" when there is an error "Unable to check spelling"
+x spellCheck for "one" returns true
+x spellCheck for "brke" returns false
+x spellCheck for "one" when there is a network error
