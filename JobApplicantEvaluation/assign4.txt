@@ -1,0 +1,42 @@
+Assign4: Due 11:59PM April 17
+
+Please take small steps. Start with a canary test and one or two more tests.
+List your tests in a file named tests.txt. Check them off with a x as you 
+implement them. Remember to ask for a review each day. The earlier you start,
+the earlier you finish, and less the risk. If you start late, you carry a 
+bigger risk. I sincerely hope you will start early and come out winning in 
+this course.
+
+Using test first development, write the program described below.
+
+An agency specializes in evaluating job applicants. Different clients using their service will want applicants to be
+evaluated based on different criteria. New criteria not known today may be added in the future. Some existing criteria
+may also be removed at any time. Not all available criteria will be used by every client.
+
+Examples of criteria are employment status, criminal records, credit records, Security clearance, etc. For example,
+the employment status criterion will return a response of its evaluation with a status and reason, like so: pass,
+"applicant has had previous employment." As another example, the criminal records criterion may respond fail,
+"person has done time for bank robbery."
+
+For the purpose of this assignment, we will fake some response in each of the criteria when an evaluation is requested
+for applicants.
+
+Write a console application that will allow the user of the program to first choose the criteria they want to use,
+from a dynamic list of available criteria. Then evaluate the application for all the selected criteria.
+
+Finally the program will print the total result, pass or fail (pass only if all criteria passed) and provide a summary
+of the evaluations for that applicant.
+
+Once you complete coding, please answer the following:
+
+1. What design principles did you use in this assignment? Discuss.
+
+YOUR RESPONSE GOES HERE
+
+2. Any surprises or things that you did not expect?
+
+YOUR RESPONSE GOES HERE
+
+3. What design patterns did you use in this assignment? Discuss.
+
+YOUR RESPONSE GOES HERE

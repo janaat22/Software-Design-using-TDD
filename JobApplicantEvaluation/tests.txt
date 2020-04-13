@@ -1,0 +1,14 @@
+x canary test
+x test employment status pass
+x test criminal record pass
+x test credit records fail
+x test visa status fail
+x test get existing criteria
+x test dynamic import of criteria
+
+x test applicant for no criteria
+x test applicant for one passing criteria
+x test applicant for one failing criteria
+x test applicant for two passing criteria
+x test applicant for two passing criteria
+x test applicant for two passing on failing criteria
